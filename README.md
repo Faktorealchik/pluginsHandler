@@ -9,7 +9,7 @@
 Пример:
 url:mail.ru
 name:mail   
-class:span[class=quotations__item__rate] Рис. 1 поиск класса для примера
+class:span[class=quotations__item__rate] 
 вывод производится в ../public_html/out/SitesMonitoring.html
 
 •	Не обязательно должен быть именно класс. Можно ввести любой тэг[class/id=name]
