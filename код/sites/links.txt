@@ -1,0 +1,107 @@
+в формате, как на примерах ниже, задаем:
+адрес(url)в формате, как сейчас на сайте.
+имя(name) любое имя, какое будет Вам удобно использовать.
+период(period) период обновления
+класс(class) класс, по которому будем собирать данные,
+формат: тэг[class/id=text]
+примеры ниже.
+пробелы после списка данных не важны(может быть как 0 так и множество)
+
+url:https://mail.ru
+name:mail
+period:6000
+class:div[class=quotations]
+
+url:http://www.timeserver.ru/
+name:1
+period:10
+class:div[class=city_clock_board pull-left]
+
+url:http://www.timeserver.ru/compare/4654-5122.html
+name:2
+period:2000
+class:div[class=difference_two_city_clock_board city_clock_board]
+
+url:http://www.timeserver.ru/
+name:3
+period:4000
+class:div[class=city_clock_board pull-left]
+
+url:http://www.timeserver.ru/compare/4654-5122.html
+name:4
+period:3000
+class:div[class=difference_two_city_clock_board city_clock_board]
+
+url:http://www.timeserver.ru/
+name:5
+period:1000
+class:div[class=city_clock_board pull-left]
+
+url:http://www.timeserver.ru/compare/4654-5122.html
+name:6
+period:1000
+class:div[class=difference_two_city_clock_board city_clock_board]
+
+url:http://www.timeserver.ru/
+name:7
+period:1000
+class:div[class=city_clock_board pull-left]
+
+url:http://www.timeserver.ru/compare/4654-5122.html
+name:8
+period:1000
+class:div[class=difference_two_city_clock_board city_clock_board]
+
+url:http://www.timeserver.ru/
+name:9
+period:1000
+class:div[class=city_clock_board pull-left]
+
+url:http://www.timeserver.ru/compare/4654-5122.html
+name:10
+period:1000
+class:div[class=difference_two_city_clock_board city_clock_board]
+
+url:http://www.timeserver.ru/
+name:11
+period:1000
+class:div[class=city_clock_board pull-left]
+
+url:http://www.timeserver.ru/compare/4654-5122.html
+name:12
+period:1000
+class:div[class=difference_two_city_clock_board city_clock_board]
+
+url:http://www.timeserver.ru/
+name:13
+period:1000
+class:div[class=city_clock_board pull-left]
+
+url:http://www.timeserver.ru/compare/4654-5122.html
+name:14
+period:1000
+class:div[class=difference_two_city_clock_board city_clock_board]
+
+
+
+
+.url:https://yandex.ru
+.name:yandex
+.period:2000
+.class:div[class=inline-stocks__content text_black_yes]
+
+.url:https://yandex.ru
+.name:ya
+.period:3000
+.class:div[class=content-tabs__items content-tabs__items_active_false]
+
+
+.url:https://yandex.ru
+.name:yandex
+.period:8000
+.class:ol[class=links b-news-links]
+
+.url:https://mail.ru
+.name:mail
+.period:8000
+.class:span[class=js-txt mailbox__userinfo__menu__item__link__text mailbox__userinfo__menu__item__link__text_unread]
