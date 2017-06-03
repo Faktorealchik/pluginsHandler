@@ -23,8 +23,10 @@ class:span[class=quotations__item__rate]
 3)	period – период проверки файла
 пример: 
 fname: test.txt
-name: test
 period: 5000
+
+или 
+fname: c:/test/test.txt
 При каких-либо изменениях в файле, выводится для каждого изменения:
 1)	Строка до изменения.
 2)	Строка после изменения.
