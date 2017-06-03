@@ -1,0 +1,4 @@
+﻿за этим файлом следит fileListener
+nothingtest
+test
+test

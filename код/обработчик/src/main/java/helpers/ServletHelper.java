@@ -22,9 +22,12 @@ public class ServletHelper {
                 "</head>\n" +
                 "<body><div>");
         mkTab(resp);
-        resp.println("</div></body>\n" +
+        resp.println("</div>" +
+                "<br><br><h2><a href=\"../close\" id=\"close\">close program</a></h2>"+
+                "</body>\n" +
                 "</html>");
-
+        resp.flush();
+        resp.close();
     }
 
 

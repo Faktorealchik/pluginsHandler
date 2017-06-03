@@ -28,6 +28,8 @@ public class ListenServlet extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
         resp.setStatus(HttpServletResponse.SC_ACCEPTED);
         sh.makeNewPage(resp.getWriter());
+//        System.out.println(req.getParameter("close"));
+
     }
 
     /**
